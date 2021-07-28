@@ -11,13 +11,13 @@ body{
     font-family: titulos;
 }
 .margenes{
-    margin: 44px 59.005px 48.1px 79.005px;
+    margin: 44px 59.005px 48.1px 40px;
 }
 .info{
-    margin-bottom: 39px;
+    line-height: 17px;
 }
 .infoPersonal{
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 .infoFinal{
     display: flex;
@@ -77,6 +77,7 @@ footer{
     font-size: 50px !important;
     color: #fbb03b;
     font-family: titulos;
+    line-height: 55px;
 }
 .nombre{
     margin-bottom: 34px;
@@ -85,11 +86,11 @@ footer{
     line-height: 200px;
 }
 .apellido{
-    margin-top: 30px;
+    margin-top: 40px;
     position: absolute;
     font-size: 450px !important;
-    left: 65px;
-    line-height: 180px;
+    left: 70px;
+    line-height: 200px;
 }
 .parrafo{
     width: 400px;
