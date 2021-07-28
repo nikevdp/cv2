@@ -1,0 +1,149 @@
+.celeste {
+  background-color: #68d3ee; }
+
+.verde {
+  background-color: #3aa325; }
+
+.naranja {
+  background-color: #FBB03B; }
+
+@font-face {
+  font-family: fuenteBody;
+  src: url(../tipografias/fuentegeneral.OTF); }
+
+@font-face {
+  font-family: titulos;
+  src: url(../tipografias/titulos.TTF); }
+
+body {
+  font-size: 14px;
+  font-family: fuenteBody !important;
+  color: #1E170A  !important; }
+
+.titlFount {
+  font-size: 146px;
+  font-family: titulos; }
+
+.margenes {
+  margin: 44px 59.005px 48.1px 79.005px; }
+
+.info {
+  margin-bottom: 39px; }
+
+.infoPersonal {
+  margin-bottom: 25px; }
+
+.infoFinal {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 500px; }
+
+.presentacion {
+  display: flex;
+  justify-content: space-between; }
+  .presentacion img {
+    width: 540px;
+    height: 540px;
+    box-shadow: 0px 0px 0px 10px orange;
+    text-align: right; }
+  .presentacion p {
+    margin: 2px 0px 2px 0px; }
+
+.titulo {
+  font-weight: bold;
+  position: relative;
+  margin-bottom: -5px; }
+
+footer {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  height: 85.35px;
+  bottom: 0px; }
+  footer a {
+    height: 48px;
+    transition: 1s;
+    bottom: 0px;
+    width: 100%;
+    border: solid black 1px;
+    background-color: #eead44;
+    color: black;
+    font-weight: bold;
+    text-decoration: none; }
+    footer a div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%; }
+  footer a:hover {
+    transition: 1s;
+    color: black;
+    height: 80px; }
+
+.tituloResaltado {
+  font-size: 50px !important;
+  color: #fbb03b;
+  font-family: titulos; }
+
+.nombre {
+  margin-bottom: 34px;
+  font-size: 150px !important;
+  position: relative;
+  line-height: 200px; }
+
+.apellido {
+  margin-top: 30px;
+  position: absolute;
+  font-size: 450px !important;
+  left: 65px;
+  line-height: 180px; }
+
+.parrafo {
+  width: 400px; }
+
+.cuerpo {
+  display: flex; }
+  .cuerpo .tituloFotos {
+    line-height: 135px;
+    margin-bottom: 28px; }
+  .cuerpo .derecha {
+    margin-left: 30px; }
+    .cuerpo .derecha img {
+      width: 700px;
+      height: 700px;
+      margin-bottom: 47.3px; }
+
+.experiencia {
+  display: flex; }
+  .experiencia .textoIzquierda {
+    margin-right: 20px; }
+  .experiencia .textoDerecha {
+    margin-left: 20px; }
+
+.tituloFotos {
+  width: 400px;
+  line-height: 140px;
+  margin-bottom: 59px; }
+
+.tituloEstudio {
+  line-height: 110px; }
+
+.derechaReels {
+  margin-left: 20px; }
+  .derechaReels .titulo {
+    margin-top: 2px !important; }
+  .derechaReels .infoReels p {
+    margin-bottom: -1px; }
+
+.reels {
+  position: absolute;
+  bottom: 30px; }
+
+@media only screen and (max-height: 1000px) {
+  .apellido {
+    font-size: 265px; }
+  .nombre {
+    font-size: 265px;
+    line-height: 150px; } }

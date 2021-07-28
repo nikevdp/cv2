@@ -1,0 +1,11 @@
+$backgraound: ( 
+        celeste: #68d3ee,
+        verde:  #3aa325,
+        naranja: #FBB03B    
+); 
+
+@each $colores, $color in $backgraound {
+   .#{$colores} {
+       background-color: $color;
+   }
+}
